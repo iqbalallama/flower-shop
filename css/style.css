@@ -1,3 +1,4 @@
+/* body part */
 body{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
@@ -19,9 +20,6 @@ body{
 .banner{
     width: 40%;
     
-}
-.banner-text{
-    /* padding: 40px; */
 }
 .lets-make{
     color: #272727;
@@ -66,6 +64,7 @@ body{
         flex-direction: column;
         margin-top:150px;
     }
+    /* feature section */
     .feature{
         width: 80%;
     }
@@ -123,7 +122,8 @@ body{
         height: 450px;
         
     }
-    
+    /* feature section */
+    /* hot deal section */
     .hot-deal{
         width: 100%;
         border-radius: 8px;
@@ -138,7 +138,8 @@ body{
     .deal-text{
         text-align: center;
     }
-
+    /* hot deal section */
+    /* instagram section */
     .instagram{
         display: flex;
         justify-content: center;
@@ -178,7 +179,45 @@ body{
     .pic-flower{
         width: 90%;
     }
-
+    /* instagram section */
+    /* creative section */
+    .creative{
+        width: 100%;
+        text-align: center;
+        padding: 100px 0px;
+        background: rgba(229, 84, 115, 0.05)
+    }
+    .create-title{
+        color: #272727;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 800;
+        margin-bottom: 20px;
+    }
+    .flower-create{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .create{
+        width: 30%;
+        padding: 15px;
+        border-radius: 15px;
+        box-shadow: 2px 2px 2px 2px gray;
+        margin-top: 20px;
+        background: rgba(229, 84, 115, 0.10);
+    }
+    .create-img{
+        width: 95%;
+        height: 350px;
+    }
+    .create-detail{
+        text-align: justify;
+        padding: 10px 15px;
+        
+    }
+    /* creative section */
+    /* latest section */
     .latest-deal{
         width: 80%;
         text-align: center;
@@ -211,6 +250,7 @@ body{
         border:none;
         margin-right: 30px;
     }
+    /* latest section */
 /* main part */
 /* footer part */
     footer{
