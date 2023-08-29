@@ -47,7 +47,7 @@ body{
 }
 .btn-primary{
     color: #FFF;
-    padding: 20px 35px;
+    padding: 15px 25px;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -178,4 +178,68 @@ body{
     .pic-flower{
         width: 90%;
     }
+
+    .latest-deal{
+        width: 80%;
+        text-align: center;
+        padding: 120px 0px;
+        background-image: url('../images/Rectangle\ 9.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 100px 0px;
+    }
+    .latest-title{
+        line-height: 5px;
+        color: #272727;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 800;
+    }
+    .latest-info{
+        color: rgba(39, 39, 39, 0.60);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+    .text-area{
+        padding: 20px;
+        width: 600px;
+        border-radius: 8px;
+        background: #FFF;
+        border:none;
+        margin-right: 30px;
+    }
 /* main part */
+/* footer part */
+    footer{
+        text-align: center;
+        padding: 100px 0px;
+        background-color: #111010;
+    }
+    span{
+        color: #E55473;
+    }
+    .foot-title{
+        color: #FFF;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+    .foot-info{
+        color: rgba(255, 255, 255, 0.90);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+    }
+    .foot-last{
+        color: rgba(255, 255, 255, 0.40);
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+/* footer part */
