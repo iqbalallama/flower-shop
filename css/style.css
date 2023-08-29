@@ -2,6 +2,7 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
+/* header part */
 .header{
     display: flex;
     justify-content: center;
@@ -20,7 +21,7 @@ body{
     
 }
 .banner-text{
-    padding: 40px;
+    /* padding: 40px; */
 }
 .lets-make{
     color: #272727;
@@ -55,3 +56,72 @@ body{
     background: #E55473;
     border: none;    
 }
+/* header part */
+/* main part */
+    main{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top:150px;
+    }
+    .feature{
+        width: 80%;
+    }
+    .feature-title{
+        color: #272727;
+        text-align: center;
+        
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+    .feature-detail{
+        color: rgba(39, 39, 39, 0.60);
+        text-align: center;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px; 
+    }
+    .feature-pic{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap:20px;
+        margin-top: 40px;
+    }
+    .flower{
+        border-radius: 300px 300px 0px 0px;
+        background: rgba(167, 33, 98, 0.15);
+        width: 390px;
+        height: 470px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .flower-red{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pink{
+        width: 290px;
+        height: 410px;
+       
+    }
+    .red{
+        width: 350px;
+        height: 350px;
+        
+    }
+    .yellow{
+        width: 380px;
+        height: 450px;
+        
+    }
+    
+/* main part */
